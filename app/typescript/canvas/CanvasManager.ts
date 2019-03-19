@@ -37,7 +37,7 @@ export default class CanvasManager{
 
         // Sets booklet image
         this._booklet           = new Image();
-        this._booklet.src       = `${ window.location.origin }/assets/booklet.png`;
+        this._booklet.src       = './assets/booklet.png';
         this._booklet.width     = 860;
         this._booklet.height    = 660;
 
