@@ -1,2 +1,3 @@
-# dyb-demo
-An interactive drawing element demo for the Discover Your Bible website.
+# Sandbox Framework
+
+A simple framework for building unique elements in a sandbox environment.
