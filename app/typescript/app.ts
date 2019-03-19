@@ -1,19 +1,15 @@
+import CanvasManager from './canvas/CanvasManager';
+
 export default class App{
+    private CanvasManager:CanvasManager;
 
     constructor(){
-        this.init();
-    }
-
-    /**
-     * Called when the class has be initiated
-     */
-    private init():void{
-
+        this.CanvasManager = new CanvasManager();
     }
 }
 
 /**
- * IIFE for launching the application
+ * IIFE for starting the app
  */
 (()=>{
     new App();

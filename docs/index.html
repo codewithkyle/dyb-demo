@@ -10,6 +10,22 @@
 
     <style>
         body{
+            background-color: #d6dff0;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        canvas{
+            width: 100%;
+            height: 100%;
+            cursor: crosshair;
+        }
+    </style>
+
+    <style>
+        body{
             background-color: #F8F9FC;
             margin: 0;
             padding: 0;
@@ -19,5 +35,13 @@
     </style>
 </head>
 <body>
+    <noscript>
+        <p>JavaScript is required. Please enable JavaScript and refresh the page to continue.</p>
+    </noscript>
+    <canvas class="js-canvas c-canvas"></canvas>
+    <div class="o-wrapper">
+        <button data-type="0" class="js-button">Highlighter</button>
+        <button data-type="1" class="js-button">Red Pen</button>
+    </div>
 </body>
 </html>

@@ -1,3 +1,3 @@
-# Sandbox Framework
+# Discover Your Bible Drawing Demo
 
-A simple framework for building unique elements in a sandbox environment.
+A simple interactive demo for the Discover Your Bible drawing concept.
